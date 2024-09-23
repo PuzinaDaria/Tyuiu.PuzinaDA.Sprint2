@@ -24,8 +24,8 @@ namespace Tyuiu.PuzinaDA.Sprint2.Task0.V20
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             int x = 1075, y = 275;
-            Console.WriteLine("Введите X: " + x);
-            Console.WriteLine("Введите Y: " + y);
+            Console.WriteLine("X = " + x);
+            Console.WriteLine("Y = " + y);
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
