@@ -6,12 +6,12 @@ namespace Tyuiu.PuzinaDA.Sprint2.Task0.V20
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.Title = "Спринт #1 | Выполнил: Пузина Д. А. | ИИПБ-24-1";
+            Console.Title = "Спринт #2 | Выполнил: Пузина Д. А. | ИИПБ-24-1";
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Спринт #1                                                               *");
+            Console.WriteLine("* Спринт #2                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
             Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #16                                                             *");
+            Console.WriteLine("* Вариант #20                                                             *");
             Console.WriteLine("* Выполнил: Пузина Дарья Алексеевна | ИИПБ-24-1                           *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
