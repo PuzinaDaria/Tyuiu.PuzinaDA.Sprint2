@@ -23,9 +23,17 @@ namespace Tyuiu.PuzinaDA.Sprint2.Task5.V5
             Console.WriteLine("***************************************************************************");
 
             int value;
+            string card;
             Console.Write("Введите номер карты: ");
             value = Convert.ToInt32(Console.ReadLine());
-            var card = ds.FindCardValue(value);
+            if ((value <= 6) || (value >= 14)||(value == 10))
+            {
+                card = "Такой карты нет, введите число от 6 до 14 (кроме 10).";
+            }
+            else
+            {
+                card = ds.FindCardValue(value);
+            }
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");

@@ -33,8 +33,8 @@ namespace Tyuiu.PuzinaDA.Sprint2.Task5.V5.Lib
                     card = ("туз");
                     break;
                 default:
-                    card = ("такой карты нет");
-                    break;
+                    throw new ArgumentException("Такой карты нет, введите число от 6 до 14 (кроме 10).");
+
 
             }
             return card;
