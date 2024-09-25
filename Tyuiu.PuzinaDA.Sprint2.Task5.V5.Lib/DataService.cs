@@ -9,31 +9,31 @@ namespace Tyuiu.PuzinaDA.Sprint2.Task5.V5.Lib
             switch (value)
             {
                 case (6) : 
-                    card = "Шестёрка";
+                    card = "шестёрка";
                     break;
                 case (7):
-                    card = "Семёрка";
+                    card = "семёрка";
                     break;
                 case (8):
-                    card = "Восьмёрка";
+                    card = "восьмёрка";
                     break;
                 case (9):
-                    card = "Девятка";
+                    card = "девятка";
                     break;
                 case (11):
-                    card = ("Валет");
+                    card = ("валет");
                     break;
                 case (12):
-                    card = ("Дама");
+                    card = ("дама");
                     break;
                 case (13):
-                    card = ("Король");
+                    card = ("король");
                     break;
                 case (14):
-                    card = ("Туз");
+                    card = ("туз");
                     break;
                 default:
-                    card = ("Такой карты нет");
+                    card = ("такой карты нет");
                     break;
 
             }
